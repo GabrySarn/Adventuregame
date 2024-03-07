@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   path2.addEventListener('click', function() {
-    handlePath([
+    handlePath([ 
       { text: 'Segui il sentiero abbandonato', handlerName: 'followAbandonedPath' },
       { text: 'Esplora un nuovo percorso', handlerName: 'exploreNewPath' },
     ], "Hai scelto il Sentiero attraverso la foresta. Ti avventuri nel fitto della foresta, dove gli alberi sembrano guardarti con occhi oscuri. Trovi un sentiero abbandonato. Lo segui o cerchi un nuovo percorso?");
