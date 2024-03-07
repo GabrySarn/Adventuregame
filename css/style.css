@@ -1,0 +1,38 @@
+/* Aggiungi il tuo stile personalizzato qui */
+body {
+    background-image: url("../src/background.jpg"); /* Sfondo con immagine di una foresta */
+    background-size: cover; /* Adatta l'immagine allo schermo */
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Rimuove il margine di default */
+}
+
+.container {
+    max-width: 800px; /* Larghezza massima del contenitore */
+    margin: 0 auto; /* Centra il contenitore */
+    padding: 20px; /* Spazio tra il contenuto e il bordo */
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo rettangolo opaco */
+    border-radius: 10px; /* Bordo arrotondato per il rettangolo */
+}
+
+h1 {
+    text-align: center; /* Centra il titolo */
+    text-shadow: 2px 2px 4px black; /* Effetto ombra sul titolo */
+}
+
+p {
+    text-align: justify; /* Allinea il testo ai margini */
+}
+
+.choice-btn {
+    width: 250px; /* Larghezza dei bottoni delle scelte */
+    margin: 10px auto; /* Spazio tra i bottoni (auto per centrare) */
+}
+
+#result {
+    font-weight: bold; /* Testo in grassetto */
+    font-size: 20px; /* Dimensione del testo */
+}

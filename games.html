@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gioco Interattivo con Scelte</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Una storia che non dimenticherete cosi facilmente..</h1><br>
+
+    <p id="p1">Segui la tua avventura e prendi decisioni che influenzeranno il tuo destino.</p>
+    <button id="startButton" class="btn btn-primary">Inizia l'Avventura</button>
+    <div id="gameContent" style="display:none; margin-top:20px;">
+      <p id="storyText">Ti trovi in una piccola locanda ai margini di una grande foresta. Davanti a te ci sono tre
+        percorsi. Quale sceglierai?</p>
+      <button id="path1" class="btn btn-info choice-btn">Percorso delle montagne</button>
+      <button id="path2" class="btn btn-info choice-btn">Sentiero attraverso la foresta</button>
+      <button id="path3" class="btn btn-info choice-btn">Strada costiera</button>
+    </div>
+    <div id="result" style="display:none; margin-top:20px;"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
