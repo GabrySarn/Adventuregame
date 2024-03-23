@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
       choiceButtons[j].addEventListener('click', handleChoice);
     }
   }
+  
 
   function handleChoice(event) {
     var handlerName = event.target.getAttribute('data-handler');
